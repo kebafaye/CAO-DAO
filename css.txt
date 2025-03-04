@@ -1,0 +1,7 @@
+[Trajectoire Consigne] ---> [Erreur] ---> [PID Controller] ---> [Modèle Dynamique + Compensation] ---> [Robot]
+                      |                         |                          |
+                      |                         |                          |
+                      |                         v                          |
+                      |                    [Compensation]                 [Rétroaction]
+                      |                         |                          |
+                      ----------------------------------> [Feedback] ----> [Observer/Kalman]
